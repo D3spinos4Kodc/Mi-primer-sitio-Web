@@ -1,0 +1,1319 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background-color: rgb(101, 111, 255);
+}
+body{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../assets/stadium.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+/*11111111111111111111111111111111111111111111*/
+/* -------------------HOME--------------------*/
+/*11111111111111111111111111111111111111111111*/
+header{
+  width: 100%;
+  height: 24vh;
+}
+h1{
+  margin-top: 5vh;
+  margin-left: 2vw;
+  font-size: 4.5vw;
+  color: rgb(255, 255, 255);
+  animation-name: DucksHockey;
+  animation-iteration-count: infinite;
+  animation-duration: 50s;
+  
+}
+@keyframes DucksHockey{
+  0% {color:rgb(255, 255, 255);}
+  25% {color: rgb(62, 91, 255);}
+  50% {color: rgb(165, 29, 29);}
+  75% {color:rgb(255, 218, 95)}
+  100% {color:rgb(106, 255, 218);}
+}
+
+nav{
+  margin-top: 4vh;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.4vw; 
+}
+nav a{
+  padding: 0.1vh 0.2vw 0.4vh;
+  text-decoration: none;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.856);
+  border-right: 0.1px solid rgba(255, 255, 255, 0.856);
+  border-radius: 20%;
+  margin: 1vh 0.2vw;
+  background-color: rgba(1, 18, 24, 0.555);
+  box-shadow: 1px 1px 6px 0px rgba(252, 206, 2, 0.322);
+  color: #ffffffd0;
+  transition: 0.8s ease-out;
+}
+nav a:hover{
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.856);
+  background-color: rgba(255, 255, 255, 0.945);
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-out;
+  box-shadow: 1px 1px 32px 8px rgb(193, 243, 255);
+}
+.upcoming{
+  margin-top: 4vh;
+  background-image: url(../assets/hockeyjuga.jpg);
+  opacity: 70%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position-x:44%;
+  background-color: rgb(228, 227, 227);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.7vw;
+  color: rgb(3, 9, 59);
+  padding: 2vh  2vw 4vh 24vh;
+  border-top:0.4vh solid rgba(122, 0, 0, 0.945);
+  border-right:0.2vw solid rgba(122, 0, 0, 0.945);
+  border-bottom:0.4vh solid rgba(122, 0, 0, 0.945);
+  border-left:0.2vw solid rgba(122, 0, 0, 0.945);
+  border-radius: 5%;
+  box-shadow: 0.1px 0.1px 20px 1px rgb(253, 155, 155);
+}
+.upcoming:hover{
+  margin-top: 4vh;
+  background-image: url(../assets/hockeyjuga.jpg);
+  opacity: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position-x: 0%; 
+  background-color: rgb(255, 255, 255);
+  padding: 2vh  2vw 4vh 24vh;
+  transition: 2s ease-out;
+  border-top:0.2vh solid rgba(32, 180, 206, 0.829);
+  border-right:0.2vw solid rgba(32, 180, 206, 0.829);
+  border-bottom:0.2vh solid rgba(32, 180, 206, 0.829);
+  border-left:0.2vw solid rgba(32, 180, 206, 0.829);
+  box-shadow: 1px 1px 30px 10px rgb(137, 238, 245);
+}
+.time{
+  margin-top: 8vh;
+  margin-left: 21vw;
+  color:rgb(139, 0, 0);
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 1.6vw;
+}
+.anuncio{
+  margin-left: 20vw;
+  font-size: 1.3vw;
+  color: rgb(0, 0, 0);
+}
+main img{
+  height: 18vh; 
+  position: fixed;
+  bottom: 2vh;
+  left: 1%;
+}
+/*22222222222222222222222222222222222222222222*/
+/* -------------------ABOUT-------------------*/
+/*22222222222222222222222222222222222222222222*/
+main{
+  display:flex;
+  justify-content: center;
+}
+.footr{
+  margin-top: 1.2vh;
+  font-weight: bolder;
+  text-align: center;
+  font-family: monospace;
+  color: rgb(27, 31, 54);
+}
+article{
+  font-weight: bolder;
+}
+.description{
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position-y: 94%;
+  background-image: linear-gradient(to bottom, rgba(247, 245, 245, 0.39), rgba(1, 6, 37, 0.589)),url(../assets/hocjdisco.jpg);
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.808);
+  text-align:justify;
+  margin: 9vh 12vw ;
+  font-size: 2em;
+  padding: 2vh 2vw 6vh;
+  opacity: 85%;
+  box-shadow: 0px 0px 6px 0px rgba(252, 206, 2, 0.918);
+}
+.description:hover{
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position-y: 94.3%;
+  background-image: linear-gradient(to bottom, rgba(99, 85, 85, 0.527), rgba(1, 6, 37, 0.37)),url(../assets/hocjdisco.jpg);
+  transition: 1.5s ease-out;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.808);
+  text-align:justify;
+  margin: 9vh 12vw ;
+  font-size: 2em;
+  padding: 2vh 2vw 6vh;
+  opacity: 100%;
+  box-shadow: 1px 5px 40px 8px rgb(41, 96, 133);
+}
+.titlesp{
+  margin-top: 3vh;
+  margin-left: 2vw;
+  color: rgb(172, 21, 21);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.titlesp:hover{
+  margin-top: 3vh;
+  margin-left: 2vw;
+  color: rgb(172, 21, 21);
+  text-shadow: 1px 1px 1px rgb(112, 112, 112);
+}
+.parrafot{
+  font-size: 20px;
+  margin-top: 1.1vh;
+}
+/*33333333333333333333333333333333333333333333*/
+/* ------------------CONTACT------------------*/
+/*33333333333333333333333333333333333333333333*/
+.email{
+  background-color: rgb(37, 81, 148);
+  padding: 4vh 4vw 1.5vh 2vh;
+  border-radius: 5%;
+  border: 1px solid rgb(255, 255, 255);
+  margin-right: 40vw;
+  margin-bottom: 1vh;
+  color: rgb(0, 63, 82);
+  background-image: url(../assets/hockjugadores.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position-y: 99%;
+  box-shadow: 1px 1px 4px 0px rgba(252, 2, 2, 0.89);
+  opacity: 80%;
+}
+.email:hover{
+  padding: 4vh 4vw 1.5vh 2vh;
+  border-radius: 5%;
+  margin-right: 40vw;
+  margin-bottom: 1vh;
+  background-image: url(../assets/hockjugadores.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position-y: 99.5%;
+  transition: 1.5s ease-out;
+  box-shadow: 1px 1px 12px 3px rgb(149, 155, 211);
+  opacity: 110%;
+}
+.correo{
+  color: rgb(173, 8, 8);
+}
+.contp{
+  font-size: 1.7vw;
+  margin-top: 2vh;
+}
+p{
+  font-size: 1vw;
+}
+/*44444444444444444444444444444444444444444444*/
+/* ------------------RULES--------------------*/
+/*44444444444444444444444444444444444444444444*/
+.rules{
+  background-color: rgba(1, 11, 29, 0.541);
+  margin-right: 43vw;
+  margin-left: 2vw;
+  margin-top: 8vh;
+  padding: 4vh 5vw;
+  border: 7px double rgba(92, 9, 9, 0.555);
+  border-radius: 1%;
+  overflow-y: auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  font-size: 1.4em;
+}
+.rules:hover{
+  background-color: rgba(0, 7, 10, 0.671);
+  margin-right: 43vw;
+  margin-left: 2vw;
+  margin-top: 8vh;
+  padding: 4vh 5vw;
+  border: 7px double #09c4fd52;
+  border-radius: 1%;
+  overflow-y: auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 251, 251);
+  font-size: 1.4em;
+  transition: 1.2s ease-out;
+  box-shadow: 1px 5px 60px 10px rgb(152, 198, 235);
+}
+.rul1{
+  list-style-type: lower-latin;
+  margin-left: 2.4vw;
+}
+li{
+  font-size: 1.1vw;
+}
+.rul2{
+  margin-top: 2.7vh;
+}
+.spc{
+  margin-left: 3vw;
+}
+.tema1{
+  text-align: center;
+  color: rgba(96, 196, 214, 0.726);
+  font-size: 1.3em;
+}
+.tema2{
+  color: rgba(86, 146, 185, 0.911);
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+.sportsmans{
+  font-size: 1em;
+}
+.tema4{
+  margin-left: 5vw;
+}
+.logo02{ 
+  height: 19%; 
+  position: fixed;
+  bottom: 2vh;
+  left: 90vw;
+ }
+/* 555555555555555555555555555555555555555555555554 */
+/* 0000000----0000--GAME-INFIRMATION--0000----00000 */
+/* 555555555555555555555555555555555555555555555554 */
+.tablas{
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh ;
+}
+.tabfechas{
+  margin-left: 5.5vw;
+  width: 85%;
+  border-radius: 3%;
+  background-color: rgba(95, 158, 160, 0.61);
+  background-image: url(../assets/hocke2.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position-y: 5%;
+  box-shadow: 1px 1px 12px 4px rgba(255, 255, 255, 0.822);
+  opacity: 100%;
+  color: rgb(255, 255, 255);
+}
+.tab1{
+  font-size: 2.4vw;
+  color: rgba(114, 1, 1, 0.911);
+  background-color: rgba(255, 255, 255, 0.788);
+  margin-left: 35vw;
+}
+.tab2{
+  font: bolder;
+  width: 40%;
+  font-size: 1.4vw;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.726);
+  margin-right: 66%;
+}
+.tab3{
+  margin-left: 12vw;
+}
+.teams{ 
+font-size: 0.9em;
+}
+.school{
+  font-size: 0.95em;
+  text-align: left;
+}
+.hour{
+  font-size: 0.9em;
+  text-align: center;
+} 
+.fechatab{
+  font-size: 1em;
+}
+td{
+  font-size: 0.8em;
+}
+table, th{
+  border: 2px solid rgba(252, 252, 252, 0.582);
+  border-radius: 10%;
+  background-color: rgba(207, 210, 214, 0.582);
+  font-size: 1.2vw;
+  color: black;
+  margin-left: 35vw;
+  text-align: center;
+  padding: 0.5vw 2.5vw;
+}
+table:hover{ 
+  border: 2px solid rgba(0, 0, 0, 0.966);
+  border-radius: 3%;
+  background-color: rgba(27, 3, 3, 0.76);
+  transition: 1.5s ease-out;
+  font-size: 1.2vw;
+  margin-left: 44vw;
+  text-align: center;
+  padding: 0.5vw 2.5vw;
+  color: white;
+}
+.encabezadostab{
+  text-align: left;
+}
+.facility{
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.5vh;
+  margin-left: 30.2vw;
+  width:40%;
+  font-size: 2.5vw;
+  border-radius: 5%;
+  padding: 0.2em;
+  color: rgba(114, 1, 1, 0.911);
+  background-color: rgba(255, 255, 255, 0.411);
+  box-shadow: 2px 2px 50px 2px rgb(255, 253, 253);
+}
+.facility:hover{
+  margin-top: 6.5vh;
+  margin-left: 30.2vw;
+  width:40%;
+  font-size: 2.5vw;
+  border-radius: 5%;
+  padding: 0.2em;
+  transition: 1.5s ease-out;
+  color: rgba(114, 1, 1, 0.911);
+  background-color: rgba(255, 255, 255, 0.411);
+  box-shadow: 2px 2px 35px 2px rgba(0, 1, 2, 0.904);
+}
+.outdoor{
+  font-size: 0.75em ;
+  margin-bottom: 0.2em;
+}
+.parraf2{
+  margin-top: 0.5em;
+}
+footer{
+  text-align: center;
+}
+/* 66666666666666666666666666666666666666666666666 */
+/* 000000000000----Registration-----000000000000000*/
+/* 66666666666666666666666666666666666666666666666 */
+.formulario{
+  display: flex;
+  resize: none;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.titleform{
+  font-size: 3vw;
+  color: rgb(9, 47, 83);
+  background-color: rgba(255, 255, 255, 0.411);
+  border-radius: 5%;
+  margin-top: 3.5vh;
+  padding: 0 0.2em;
+}
+Fieldset{
+  border: 0;
+}
+.fieldset0{
+  margin-bottom: 4vh;
+} 
+.form1{
+  width: 50%;
+  padding: 2.4vh 2.2vw;
+  margin-top: 5vh;
+  border-radius: 3%;
+  font-size: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  color: aliceblue;
+  background-color: rgba(1, 2, 15, 0.575);
+}
+.form1:hover{
+  width: 50%;
+  padding: 2.4vh 2.2vw;
+  margin-top: 5vh;
+  box-shadow: 1px 1px 2px 5px whitesmoke;
+  transition: 6s ease-in-out;
+  border-radius: 3%;
+  font-size: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  color: aliceblue;
+  background-color: rgba(1, 2, 22, 0.986);
+}
+.form1 label{
+  font-size: 0.7em;
+}
+.input1{
+  width: 22%;
+}
+.label2{
+  margin-left: 1em;
+}
+.input2{
+  width: 36%;
+}
+.input3{
+  width: 81.5%;
+}
+.input4{
+  width: 39%;
+}
+.label5{
+  margin-left: 1em;
+}
+.input5{
+  width: 38%;
+}
+.input6{
+  width: 25%;
+}
+.fieldset1{
+  margin-bottom: 1em;
+  display: flex;
+}
+.leg1{
+  font-size: 0.78em;
+  width: 30%;
+  margin-right: 2em;
+}
+.element{
+  font-size: 0.9em;
+  margin-bottom: 1.5vh;
+}
+.closests{
+  width: 100%;
+  font-size: 11px;
+  margin-bottom: 1.5vh;
+}
+.fieldset2{
+  display: flex;
+}
+.label7{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4em;
+  margin-bottom: 1.5vh;
+}
+.locat{ /*clase para todos los label tengan espacio de distancia*/
+  margin-bottom: 0.5em;
+}
+
+.label8{
+  display: flex;
+  flex-direction: column;
+}
+.fieldset4{
+  display: flex;
+}
+.leg2{
+  font-size: 0.9em;
+  margin-bottom: 1.5vh;
+}
+.label9{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4em;
+  margin-bottom: 1.5vh;
+}
+.label10{
+  display: flex;
+  flex-direction: column;
+}
+.leg3{
+  font-size: 0.9em;
+  margin-bottom: 1.5vh;
+}
+.fieldset5{
+  display: flex;
+}
+.leg2{
+  font-size: 0.9em;
+  margin-bottom: 1.5vh;
+}
+.label11{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4em;
+  margin-bottom: 1.5vh;
+}
+.label12{
+  display: flex;
+  flex-direction: column;
+  margin-right: 8em;
+}
+.leg3{
+  font-size: 0.9em;
+  margin-bottom: 1.5vh;
+}
+.permisionprf{
+  font-size: 0.7em;
+}
+.permisionprf1{
+  font-size: 0.7em;
+  margin-bottom: 1em;
+}
+.fieldset6{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.inputfinal{
+  width: 65%;
+  margin-bottom: 2em;
+}
+.inputfinal1{
+  width: 0%;
+  margin-bottom: 2em;
+}
+.send input{
+  margin-top: 1.5em ;
+  margin-left: 19vw;
+  padding: 0.1em 0.5em;
+  font-size: 0.65em;
+  color: aliceblue;
+  font-weight: bolder;
+  border-radius: 20%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(29, 21, 21, 0.836);
+  box-shadow: 0px 0px 3px 2px aliceblue;
+}
+.send input:hover{
+  margin-top: 1.5em ;
+  margin-left: 19vw;
+  padding: 0.1em 0.5em;
+  font-size: 0.65em;
+  font-weight: bolder;
+  border-radius: 20%;
+  color: rgb(9, 47, 83);
+  background-color: rgba(255, 255, 255, 0.801);
+  box-shadow: 0px 0px 3px 2px rgb(58, 232, 255);
+}
+/* 7777777777777777777777777777777777777777777777777777 */
+/* 000000000000---MAPAS---information---00000000000000 */
+/* 7777777777777777777777777777777777777777777777777777 */
+.gnrl{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(0, 1, 5, 0.747);
+  width: 70%;
+  margin-left: 15em;
+  border: 2px solid white;
+  border-radius: 5%;
+  box-shadow: 1px 1px 20px 1px white;
+}
+.caja1{
+  margin: 1em 2em;
+}
+.lclmaps{
+  width: 100%;
+  font-size: 1.9vw;
+  color: rgba(0, 0, 0, 0.911);
+  background-color: rgba(252, 252, 252, 0.603);
+  border-radius: 10%;
+  text-align: center;
+  margin-top: 0.1em;
+  padding: 0 1em;
+  box-shadow: 1px 1px 4px 1px white;
+}
+.cabeza{
+  display: flex;
+  height: 8vh;
+}
+/* boton estadio */
+.cta{ 
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.527);;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 0.3em 1em;
+  box-shadow: 1px 1px 4px 0.5px rgb(0, 0, 0);
+  border-radius: 0.4em;
+}
+.cta:hover{ 
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.788);;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 0.3em 1em;
+  box-shadow: 1px 1px 9px 0.5px rgb(2, 196, 255);
+  border-radius: 0.4em;
+  transition: 0.3s;
+}
+.modal{
+  position: fixed;
+  background-color: rgba(0, 6, 29, 0.781);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+
+  --opacity:0;
+  --pointer: none;
+
+  opacity: var(--opacity);
+  pointer-events: var(--pointer);
+  transition: opacity 1s;
+}
+.modal:target{
+  --opacity: 1;
+  --pointer: unset;
+}
+/* ventana emergente */
+.modal_container{
+  margin: auto;
+  background-color: rgba(206, 226, 255, 0.774);
+  width: 80%;
+  max-width: 500px;
+  max-height: 65%;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em 1em;
+  border-radius: 1em;
+}
+.modal:target .modal_container{
+  animation: show 1s .4s backwards;
+}
+@keyframes show {
+  0%{
+    transform: translatez(-150vh);
+  }
+}
+.modal_picture{
+ width: 90%;
+ margin: 0 auto;
+ max-width: 600px;
+ margin-bottom: 1em;
+}
+.modal:target .modal_picture{
+  animation: scale 1.2s ;
+}
+@keyframes scale {
+  0%{
+    transform: scale(0);
+  }
+}
+.modal_imag{
+  width: 100%;
+  display: block;
+}
+.modal_title{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgb(95, 7, 7);
+}
+.modal_title--bold{
+  font-weight: 700;
+}
+/*---------- parafo por si cambio de idea -------------*/
+/* .modal_paragraph{ 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  color: black; 
+*/
+/* ----------------BOTON DE CERRADO----------- */
+.modal_close{
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgba(255, 255, 255, 0.863);
+  background-color: rgba(58, 0, 0, 0.5);
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border-radius: .4em;
+  box-shadow: 1px 1px 3px 1px black;
+}
+.modal_close:hover{
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgba(63, 0, 0, 0.726);
+  background-color: rgba(255, 254, 254, 0.63);
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(63, 0, 0);
+  border-radius: .4em;
+}
+@media (max-width:600px){
+  .modal_title{
+    font-size: 1.7rem;
+  }
+}
+/*-------------------------- boton 2 mapa------------------------- */
+.cabeza1{
+  display: flex;
+  height: 8vh;
+}
+/* boton estadio */
+.cta1{ 
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.527);;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 0.3em 1em;
+  box-shadow: 1px 1px 4px 0.5px rgb(0, 0, 0);
+  border-radius: 0.4em;
+}
+.cta1:hover{ 
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.788);;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 0.3em 1em;
+  box-shadow: 1px 1px 9px 0.5px rgb(2, 255, 15);
+  border-radius: 0.4em;
+  transition: 0.3s;
+}
+.modal1{
+  position: fixed;
+  background-color: rgba(0, 6, 29, 0.781);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  --opacity:0;
+  --pointer: none;
+  opacity: var(--opacity);
+  pointer-events: var(--pointer);
+  transition: opacity 1s;
+}
+.modal1:target{
+  --opacity: 1;
+  --pointer: unset;
+}
+/* ventana emergente */
+.modal_container1{
+  margin: auto;
+  background-color: rgba(216, 255, 206, 0.774);
+  width: 80%;
+  max-width: 500px;
+  max-height: 65%;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em 1em;
+  border-radius: 1em;
+}
+.modal1:target .modal_container1{
+  animation: show 1s .4s backwards;
+}
+@keyframes show {
+  0%{
+    transform: translatez(-150vh);
+  }
+}
+.modal_picture1{
+ width: 90%;
+ margin: 0 auto;
+ max-width: 600px;
+ margin-bottom: 1em;
+}
+.modal1:target .modal_picture1{
+  animation: scale 1.2s ;
+}
+@keyframes scale {
+  0%{
+    transform: scale(0);
+  }
+}
+.modal_imag1{
+  width: 100%;
+  display: block;
+}
+.modal_title1{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgb(95, 7, 7);
+}
+.modal_title1--bold{
+  font-weight: 700;
+}
+/*---------- parafo por si cambio de idea -------------*/
+/* .modal_paragraph{ 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  color: black; 
+*/
+/* ----------------BOTON DE CERRADO----------- */
+.modal_close1{
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgba(255, 255, 255, 0.863);
+  background-color: rgba(58, 0, 0, 0.5);
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border-radius: .4em;
+  box-shadow: 1px 1px 3px 1px black;
+}
+.modal_close1:hover{
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgba(63, 0, 0, 0.726);
+  background-color: rgba(255, 254, 254, 0.63);
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(63, 0, 0);
+  border-radius: .4em;
+}
+@media (max-width:600px){
+  .modal_title1{
+    font-size: 1.7rem;
+  }
+}
+/*-------------------------- boton 3 mapa------------------------- */
+/* boton estadio */
+.cabeza2{
+  display: flex;
+  height: 8vh;
+}
+/* boton estadio */
+.cta2{ 
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.527);;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 0.3em 1em;
+  box-shadow: 1px 1px 4px 0.5px rgb(0, 0, 0);
+  border-radius: 0.4em;
+}
+.cta2:hover{ 
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.788);;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 0.3em 1em;
+  box-shadow: 1px 1px 9px 0.5px rgb(255, 2, 2);
+  border-radius: 0.4em;
+  transition: 0.3s;
+}
+.modal2{
+  position: fixed;
+  background-color: rgba(0, 6, 29, 0.781);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  --opacity:0;
+  --pointer: none;
+  opacity: var(--opacity);
+  pointer-events: var(--pointer);
+  transition: opacity 1s;
+}
+.modal2:target{
+  --opacity: 1;
+  --pointer: unset;
+}
+/* ventana emergente */
+.modal_container2{
+  margin: auto;
+  background-color: rgba(255, 206, 206, 0.774);
+  width: 80%;
+  max-width: 500px;
+  max-height: 65%;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em 1em;
+  border-radius: 1em;
+}
+.modal2:target .modal_container2{
+  animation: show 1s .4s backwards;
+}
+@keyframes show {
+  0%{
+    transform: translatez(-150vh);
+  }
+}
+.modal_picture2{
+ width: 90%;
+ margin: 0 auto;
+ max-width: 600px;
+ margin-bottom: 1em;
+}
+.modal2:target .modal_picture2{
+  animation: scale 1.2s ;
+}
+@keyframes scale {
+  0%{
+    transform: scale(0);
+  }
+}
+.modal_imag2{
+  width: 100%;
+  display: block;
+}
+.modal_title2{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgb(95, 7, 7);
+}
+.modal_title2--bold{
+  font-weight: 700;
+}
+/*---------- parafo por si cambio de idea -------------*/
+/* .modal_paragraph{ 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  color: black; 
+*/
+/* ----------------BOTON DE CERRADO----------- */
+.modal_close2{
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgba(255, 255, 255, 0.863);
+  background-color: rgba(58, 0, 0, 0.5);
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border-radius: .4em;
+  box-shadow: 1px 1px 3px 1px black;
+}
+.modal_close2:hover{
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgba(63, 0, 0, 0.726);
+  background-color: rgba(255, 254, 254, 0.63);
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(63, 0, 0);
+  border-radius: .4em;
+}
+@media (max-width:600px){
+  .modal_title2{
+    font-size: 1.7rem;
+  }
+}
+/*-------------------------- boton 4 mapa------------------------- */
+/* boton estadio */
+.cabeza3{
+  display: flex;
+  height: 8vh;
+}
+/* boton estadio */
+.cta3{ 
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.527);;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 0.3em 1em;
+  box-shadow: 1px 1px 4px 0.5px rgb(0, 0, 0);
+  border-radius: 0.4em;
+}
+.cta3:hover{ 
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.788);;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 0.3em 1em;
+  box-shadow: 1px 1px 9px 0.5px rgb(255, 238, 2);
+  border-radius: 0.4em;
+  transition: 0.3s;
+}
+.modal3{
+  position: fixed;
+  background-color: rgba(0, 6, 29, 0.781);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  --opacity:0;
+  --pointer: none;
+  opacity: var(--opacity);
+  pointer-events: var(--pointer);
+  transition: opacity 1s;
+}
+.modal3:target{
+  --opacity: 1;
+  --pointer: unset;
+}
+/* ventana emergente */
+.modal_container3{
+  margin: auto;
+  background-color: rgba(255, 252, 206, 0.774);
+  width: 80%;
+  max-width: 500px;
+  max-height: 65%;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em 1em;
+  border-radius: 1em;
+}
+.modal3:target .modal_container3{
+  animation: show 1s .4s backwards;
+}
+@keyframes show {
+  0%{
+    transform: translatez(-150vh);
+  }
+}
+.modal_picture3{
+ width: 90%;
+ margin: 0 auto;
+ max-width: 600px;
+ margin-bottom: 1em;
+}
+.modal3:target .modal_picture3{
+  animation: scale 1.2s ;
+}
+@keyframes scale {
+  0%{
+    transform: scale(0);
+  }
+}
+.modal_imag3{
+  width: 100%;
+  display: block;
+}
+.modal_title3{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgb(95, 7, 7);
+}
+.modal_title3--bold{
+  font-weight: 700;
+}
+/*---------- parafo por si cambio de idea -------------*/
+/* .modal_paragraph{ 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  color: black; 
+*/
+/* ----------------BOTON DE CERRADO----------- */
+.modal_close3{
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgba(255, 255, 255, 0.863);
+  background-color: rgba(58, 0, 0, 0.5);
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border-radius: .4em;
+  box-shadow: 1px 1px 3px 1px black;
+}
+.modal_close3:hover{
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgba(63, 0, 0, 0.726);
+  background-color: rgba(255, 254, 254, 0.63);
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(63, 0, 0);
+  border-radius: .4em;
+}
+@media (max-width:600px){
+  .modal_title3{
+    font-size: 1.7rem;
+  }
+}
+/*-------------------------- boton 5 mapa------------------------- */
+/* boton estadio */
+.cabeza4{
+  display: flex;
+  height: 8vh;
+}
+/* boton estadio */
+.cta4{ 
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.527);;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 0.3em 1em;
+  box-shadow: 1px 1px 4px 0.5px rgb(0, 0, 0);
+  border-radius: 0.4em;
+}
+.cta4:hover{ 
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.788);;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 0.3em 1em;
+  box-shadow: 1px 1px 9px 0.5px rgb(78, 2, 255);
+  border-radius: 0.4em;
+  transition: 0.3s;
+}
+.modal4{
+  position: fixed;
+  background-color: rgba(0, 6, 29, 0.781);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  --opacity:0;
+  --pointer: none;
+  opacity: var(--opacity);
+  pointer-events: var(--pointer);
+  transition: opacity 1s;
+}
+.modal4:target{
+  --opacity: 1;
+  --pointer: unset;
+}
+/* ventana emergente */
+.modal_container4{
+  margin: auto;
+  background-color: rgba(227, 206, 255, 0.774);
+  width: 80%;
+  max-width: 500px;
+  max-height: 65%;
+  overflow: hidden;
+  text-align: center;
+  padding: 1em 1em;
+  border-radius: 1em;
+}
+.modal4:target .modal_container4{
+  animation: show 1s .4s backwards;
+}
+@keyframes show {
+  0%{
+    transform: translatez(-150vh);
+  }
+}
+.modal_picture4{
+ width: 90%;
+ margin: 0 auto;
+ max-width: 600px;
+ margin-bottom: 1em;
+}
+.modal4:target .modal_picture4{
+  animation: scale 1.2s ;
+}
+@keyframes scale {
+  0%{
+    transform: scale(0);
+  }
+}
+.modal_imag4{
+  width: 100%;
+  display: block;
+}
+.modal_title4{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgb(95, 7, 7);
+}
+.modal_title4--bold{
+  font-weight: 700;
+}
+/*---------- parafo por si cambio de idea -------------*/
+/* .modal_paragraph{ 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  color: black; 
+*/
+/* ----------------BOTON DE CERRADO----------- */
+.modal_close4{
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgba(255, 255, 255, 0.863);
+  background-color: rgba(58, 0, 0, 0.5);
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border-radius: .4em;
+  box-shadow: 1px 1px 3px 1px black;
+}
+.modal_close4:hover{
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgba(63, 0, 0, 0.726);
+  background-color: rgba(255, 254, 254, 0.63);
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(63, 0, 0);
+  border-radius: .4em;
+}
+@media (max-width:600px){
+  .modal_title4{
+    font-size: 1.7rem;
+  }
+}
+/* 
+***+++----------------+---------------:+++:
+**++:----------------:----------------::++:
+**++----------------:-------------------:+:
+*+--------**-------:----------------------+
+*+-------:===+----:-----------------------+
+**:------:*==----:------------------------:
+**+-------+#=---+------------------------::
+**+:------*###=l-----------:===---------:+:
+***+:-----+###==#=*:---+=####=+---------+*:
+****+:----=##:----*#######=+=##+------:+**:
+==****+::######=########+-+++##*------+***+
+===*=#######Duban#######:----------::+****+
+===#@@#@@############+----------:++******=+
+==##=@@@@#*=#@#######*:::::::++*********==+
+==@#=#@@#=*******=**##=****************===+
+=#@=@@@Q*=**********=@#************=======+
+=###@==#@====******=@#=******=**==========+
+====@#===@@======*#@###*==================+
+=====@#===@@#========#@===================+
+=====#@##@@@@@@@@@@##@###Espinosa@@##====+
+@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@@@@@#@@@@@@@*
+*/

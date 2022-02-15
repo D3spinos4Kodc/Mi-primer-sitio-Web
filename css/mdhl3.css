@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  min-height: 100vh;
+  margin: 0 17px;
+  background-color: rgba(91, 189, 189, 0.281);
+} 
+img{    
+  height: 21vh;
+  background-color: white;
+  border: 1px solid black ;
+  position: absolute;
+  top: 36vh;
+  right: 10vh;
+}
+header {
+  display: flex;
+  height: 40vh;
+  margin-top: 10vh;
+  border: solid black;
+  background-image: url("../assets/design1_image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 25%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1rem;
+  bottom: 9rem;
+}
+a{
+  font-size: 1.2rem;
+  color: rgb(3, 101, 230);
+  padding: 2rem 0rem;
+  margin: 0.8rem 7rem;
+  text-decoration: none;
+}
+h1{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  top: 11vh;
+  left: 30px;
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.upcoming {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: rgb(20,19,14);
+  color: #fefefe;
+  font-size: 2.2rem;
+  padding: 4px;
+}
+main{
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+article{
+  margin-top: 30px;
+  padding-left: 17%;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.time{
+  margin-left: 2.4rem;
+}
+p{  
+  margin-left: 5rem;
+}
+.contp{
+  margin: 2rem 3rem;
+}

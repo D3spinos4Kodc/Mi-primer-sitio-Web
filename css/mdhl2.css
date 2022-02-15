@@ -1,0 +1,95 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  min-height: 100vh;
+  margin: 0 10px;
+  background-color: rgba(189, 186, 201, 0.589);
+} 
+img{    
+  height: 25vh;
+  position: absolute;
+  top: 52vh;
+  left: 10vh;
+}
+.imghockey{    
+  height: 22vh;
+  position: absolute;
+  top: 58vh;
+  left: 4vh;
+}
+header {
+  display: flex;
+  height: 40vh;
+  margin-top: 10vh;
+  border: solid black;
+  background-image: url("../assets/design1_image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 25%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1{
+  position: absolute;
+  top: 1vh;
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  border: 3px solid black;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: rgba(21, 21, 192, 0.822);
+  margin: 0 0.5rem;
+  padding: 0 6px;
+  box-shadow: 4px 2px 3px 2px rgb(0 0 0 / 45%);
+}
+#active{
+  background-color: rgba(76, 131, 21, 0.836);
+}
+nav{
+  position: absolute;
+  top: 9vh;
+}
+.Logo-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.upcoming {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 2.2rem;
+  padding: 10px;
+}
+main{
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+article{
+  margin-top: 30px;
+  padding-left: 20%;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.time{
+  margin-left: 2.4rem;
+}
+p{  
+  margin-left: 5rem;
+}
+.contp{
+  margin: 2.2rem 0rem;
+  padding-left: 2rem;
+}
